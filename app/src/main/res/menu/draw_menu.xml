@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/new_draw_button"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:title="@string/draw_new"
+        android:icon="@drawable/new_pic"
+        app:showAsAction="always" >
+    </item>
+
+    <item
+        android:id="@+id/pencil_button"
+        android:layout_width="55dp"
+        android:layout_height="fill_parent"
+        android:title="@string/pencil"
+        android:icon="@drawable/pencil_small"
+        app:showAsAction="always" >
+
+    </item>
+
+    <item
+        android:id="@+id/brush_button"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:title="@string/brush"
+        android:icon="@drawable/brush"
+        app:showAsAction="always" >
+
+    </item>
+
+    <item
+        android:id="@+id/erase_button"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:title="@string/erase"
+        android:icon="@drawable/eraser"
+        app:showAsAction="always" >
+
+    </item>
+
+    <item
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:title="@string/save"
+        android:icon="@drawable/save"
+        app:shawAsAction="always" >
+
+    </item>
+
+</menu>
